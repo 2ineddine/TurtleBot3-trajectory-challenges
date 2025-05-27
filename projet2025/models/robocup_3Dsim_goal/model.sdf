@@ -1,0 +1,114 @@
+<sdf version="1.5">
+  <model name="robocup_3d_goal">
+   <pose>0.596 -0.46 0 0 0 1.75</pose>
+    <static>true</static>
+    <link name="left_post">
+      <pose>0 -0.21 0.15 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <cylinder>
+            <radius>0.01</radius>
+            <length>0.3</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <cylinder>
+             <radius>0.01</radius>
+            <length>0.3</length>
+          </cylinder>
+        </geometry>
+          <material>
+          <lighting>1</lighting>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Red</name>
+          </script>
+          <shader type="pixel">
+            <normal_map>__default__</normal_map>
+          </shader>
+          <ambient>0.2 0. 0.01 1</ambient>
+          <diffuse>0.2 0. 0.01 1</diffuse>
+          <specular>0.2 0. 0.01 1</specular>
+          <emissive>0.2 0. 0.01 1</emissive>
+        </material>
+      </visual>
+    </link>
+    
+
+
+
+    
+    <link name="right_post">
+      <pose>0 0.21 0.15 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <cylinder>
+            <radius>0.01</radius>
+            <length>0.3</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <cylinder>
+            <radius>0.01</radius>
+            <length>0.3</length>
+          </cylinder>
+        </geometry>
+          <material>
+          <lighting>1</lighting>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Red</name>
+          </script>
+          <shader type="pixel">
+            <normal_map>__default__</normal_map>
+          </shader>
+          <ambient>0.2 0. 0.01 1</ambient>
+          <diffuse>0.2 0. 0.01 1</diffuse>
+          <specular>0.2 0. 0.01 1</specular>
+          <emissive>0.2 0. 0.01 1</emissive>
+        </material>
+      </visual>
+    </link>
+
+
+
+
+    <link name="crossbar">
+    <pose>0 0 0.3 1.5708 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <cylinder>
+            <radius>0.01</radius>
+            <length>0.42</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <cylinder>
+            <radius>0.01</radius>
+            <length>0.42</length>
+          </cylinder>
+        </geometry>
+            <material>
+          <lighting>1</lighting>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <shader type="pixel">
+            <normal_map>__default__</normal_map>
+          </shader>
+          <ambient>0.2 0. 0.01 1</ambient>
+          <diffuse>0.2 0. 0.01 1</diffuse>
+          <specular>0.2 0. 0.01 1</specular>
+          <emissive>0.2 0. 0.01 1</emissive>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
