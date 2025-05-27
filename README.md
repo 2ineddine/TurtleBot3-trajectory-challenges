@@ -3,7 +3,8 @@
 [![ROS 2](https://img.shields.io/badge/ROS%202-Humble-blue)](https://docs.ros.org/en/humble/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green)](https://opensource.org/licenses/Apache-2.0)
 
-![ROS 2 Logo](https://raw.githubusercontent.com/ros2/ros2/master/ros2_logo.png)  
+![ROS 2 Logo](https://docs.ros.org/assets/images/ros-logo.png)
+
 [![Apache 2.0](https://img.shields.io/badge/Apache-2.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 
 This repository contains the **complete navigation stack** used in the final ROS 2 project for the TurtleBot3 Burger.  
@@ -112,17 +113,17 @@ Zenoh bridges DDS traffic between the robot and PC, allowing PC-side vision node
 
 
 
-```markdown
+
 ![TurtleBot3 Burger](images/robot.png)
 
 ![Trajectory1](images/trajectory1.png)
 ![Trajectory2](images/robot_trajectory2.png)
-```
+
 
 ---
 
 
-## 6. External References
+## 6  External References
 
 This project reuses material and builds upon ideas from the following public repositories:
 
@@ -133,6 +134,6 @@ Special thanks to **Sylvain Argentieri**, HDR and Maître de conférences at Sor
 for making these resources publicly available and pedagogically accessible.
 
 ---
-## 7  Authors
-Maintainer: 2ineddine – zbou6599@gmail.com  
+## 7  Authors
+Maintainer: 2ineddine - zbou6599@gmail.com  
 ---
