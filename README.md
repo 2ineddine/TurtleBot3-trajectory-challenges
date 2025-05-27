@@ -117,7 +117,7 @@ Zenoh bridges DDS traffic between the robot and PC, allowing PC-side vision node
 ![TurtleBot3 Burger](images/robot.png)
 
 ![Trajectory1](images/trajectory1.png)
-![Trajectory2](images/robot_trajectory2.png)
+![Trajectory2](images/trajectory2.png)
 
 
 ---
